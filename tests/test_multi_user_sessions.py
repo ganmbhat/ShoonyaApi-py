@@ -5,9 +5,9 @@ import time
 import yaml
 import logging
 logging.basicConfig(level=logging.DEBUG)
-with open('cred.yml') as f:
+with open(FA123681) as f:
     creds_user1 = yaml.load(f, Loader=yaml.FullLoader)
-    print(creds_user1)
+    print(FA123681_u)
 
 with open('cred1.yml') as f:
     creds_user2 = yaml.load(f, Loader=yaml.FullLoader)
